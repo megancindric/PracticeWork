@@ -1,24 +1,21 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace PracticePorj
+namespace PracticeProj
 {
-    class Program
+    class FizzBuzz
     {
-        static void Main(string[] args)
-        {
-            Fizzbuzz();
-            
-        }
 
-        public static void Fizzbuzz()
+        public void Fizzbuzz()
         {
             for (int i = 0; i <= 100; i++)
             {
-                if (i % 3 == 0 && i % 5 == 0)
+                if(i % 3 == 0 && i % 5 == 0)
                 {
                     Console.WriteLine("fizzbuzz");
                 }
-                else if (i % 3 == 0)
+                else if(i % 3 == 0)
                 {
                     Console.WriteLine("fizz");
                 }
